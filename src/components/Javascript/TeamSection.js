@@ -1,5 +1,23 @@
 // ... (import React, etc.)
-
+import '../Css/style5.css';
+import '../vendor/animate/animate2.css';
+ import '../vendor/animate/animate1.css';
+ import '../vendor/animate/animate.css';
+// import '../vendor/animate.css/animate.min.css';
+// import '../vendor/aos/aos.css';
+// import '../vendor/bootstrap/css/bootstrap.min.css';
+// import '../vendor/bootstrap-icons/bootstrap-icons.css';
+// import '../vendor/boxicons/css/boxicons.min.css';
+// import '../vendor/glightbox/css/glightbox.min.css';
+// import '../vendor/remixicon/remixicon.css';
+// import '../vendor/swiper/swiper-bundle.min.css';
+// import '../vendor/aos/aos.js';
+// import '../vendor/bootstrap/js/bootstrap.bundle.min.js';
+// import '../vendor/glightbox/js/glightbox.min.js';
+// import '../vendor/isotope-layout/isotope.pkgd.min.js';
+// import '../vendor/swiper/swiper-bundle.min.js';
+// import './main.js';
+// import '../vendor/php-email-form/validate.js';
 const TeamSection = () => {
     return (
       <section id="team" className="team">
@@ -73,7 +91,7 @@ const TeamSection = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up">
                   <div className="member-img">
-                    <img src="raunak.jpg"className="img-fluid" alt="Raunak Raj" style={{ height: '50%' }} />
+                    <img src="raunak1.jpg"className="img-fluid" alt="Raunak Raj" style={{ height: '50%' }} />
                     <div className="social">
                       <a href="https://www.facebook.com/profile.php?id=100074308419553"><i className="bi bi-facebook"></i></a>
                       <a href="https://www.instagram.com/raunakgupta678/"><i className="bi bi-instagram"></i></a>
@@ -91,7 +109,7 @@ const TeamSection = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
-                    <img src="/anusha.jpg" className="img-fluid" alt="Anusha Hitendra Borole" />
+                    <img src="/anusha.png" className="img-fluid" alt="Anusha Hitendra Borole" />
                     <div className="social">
                       <a href="https://www.facebook.com/profile.php?id=100075339798252"><i className="bi bi-facebook"></i></a>
                       <a href="https://instagram.com/anusha_1763?igshid=OGQ5ZDc2ODk2ZA=="><i className="bi bi-instagram"></i></a>
@@ -109,7 +127,7 @@ const TeamSection = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="200">
                   <div className="member-img">
-                    <img src="/priyansh.jpg" className="img-fluid" alt="Priyansh Agrawal" />
+                    <img src="/priyansh1.jpg" className="img-fluid" alt="Priyansh Agrawal" />
                     <div className="social">
                       <a href="https://www.facebook.com/profile.php?id=100075516824922&mibextid=LQQJ4d"><i className="bi bi-facebook">
                         </i></a>

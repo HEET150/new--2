@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Javascript/Header';
@@ -11,6 +10,27 @@ import Contact from './components/Javascript/Contact';
 import Footer from './components/Javascript/Footer';
 import ComingSoon from './components/Javascript/ComingSoon';
 import ComingSoon2 from './components/Javascript/ComingSoon2';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import './components/Css/style5.css';
+import './components/vendor/animate/animate2.css';
+ import './components/vendor/animate/animate1.css';
+ import './components/vendor/animate/animate.css';
+// import './components/Javascript/main.js';
+// import './components/vendor/animate.css/animate.min.css';
+// import './components/vendor/aos/aos.css';
+//  import './components/vendor/bootstrap/css/bootstrap.min.css';
+//  import './components/vendor/bootstrap-icons/bootstrap-icons.css'; 
+//  import './components/vendor/boxicons/css/boxicons.min.css';
+//  import './components/vendor/glightbox/css/glightbox.min.css';
+//  import './components/vendor/remixicon/remixicon.css';
+//  import './components/vendor/swiper/swiper-bundle.min.css';
+// //import './components/vendor/aos/aos.js';
+//  import './components/vendor/bootstrap/js/bootstrap.bundle.min.js';
+//  import './components/vendor/glightbox/js/glightbox.min.js';
+//  import './components/vendor/isotope-layout/isotope.pkgd.min.js';
+// import '../vendor/swiper/swiper-bundle.min.js';
+// import './main.js';
+// import './components/vendor/php-email-form/validate.js';
 const Home = () => {
   return (
     <div>
@@ -31,7 +51,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutSection />} />
+        {/* <Route path="/about" element={<AboutSection />} /> */}
         <Route path="/features" element={<FeaturesSection />} />
         <Route path="/projects" element={<ComingSoon2 />} />
         <Route path="/blog" element={<BlogSection />} />
@@ -40,7 +60,9 @@ const App = () => {
         <Route path="/council" element={<ComingSoon />} />
       </Routes>
     </Router>
+    
   );
 };
 
 export default App;
+

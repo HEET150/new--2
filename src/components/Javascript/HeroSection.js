@@ -1,6 +1,23 @@
 import React from 'react';
-import '../Css/style4.css';
 import '../Css/style5.css';
+// import '../vendor/animate.css/animate.min.css';
+//  import '../vendor/aos/aos.css';
+import '../vendor/animate/animate2.css';
+ import '../vendor/animate/animate1.css';
+ import '../vendor/animate/animate.css';
+// import '../vendor/bootstrap/css/bootstrap.min.css';
+// import '../vendor/bootstrap-icons/bootstrap-icons.css';
+// import '../vendor/boxicons/css/boxicons.min.css';
+// import '../vendor/glightbox/css/glightbox.min.css';
+// import '../vendor/remixicon/remixicon.css';
+// import '../vendor/swiper/swiper-bundle.min.css';
+// import '../vendor/aos/aos.js';
+// import '../vendor/bootstrap/js/bootstrap.bundle.min.js';
+// import '../vendor/glightbox/js/glightbox.min.js';
+// // import '../vendor/isotope-layout/isotope.pkgd.min.js';
+// // import '../vendor/swiper/swiper-bundle.min.js';
+// // import './main.js';
+// import '../vendor/php-email-form/validate.js';
 const HeroSection = () => {
   return (
     <section id="hero" className="d-flex flex-column justify-content-end align-items-center">
@@ -41,7 +58,7 @@ const HeroSection = () => {
               various colleges, with select IITs taking the lead. This council was established with a clear mission to
               spearhead advancements and innovations in the field of AI within India.
             </p>
-            <a href="#council" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            <a href="/council" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
           </div>
         </div>
 

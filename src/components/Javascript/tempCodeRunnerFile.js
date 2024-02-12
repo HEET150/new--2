@@ -1,1 +1,1 @@
-              <i className="ri-terminal-window-line"></i>
+ import '../vendor/aos/aos.css';

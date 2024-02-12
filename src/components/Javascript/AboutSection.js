@@ -1,9 +1,26 @@
 // src/components/AboutSection.js
 import React from 'react';
-import '../Css/style4.css';
 import '../Css/style5.css';
 
-
+// import '../vendor/animate.css/animate.min.css';
+// import '../vendor/aos/aos.css';
+import '../vendor/bootstrap/css/bootstrap.min.css';
+import '../vendor/bootstrap-icons/bootstrap-icons.css';
+import '../vendor/boxicons/css/boxicons.min.css';
+import '../vendor/glightbox/css/glightbox.min.css';
+import '../vendor/remixicon/remixicon.css';
+import '../vendor/swiper/swiper-bundle.min.css';
+import '../vendor/animate/animate.css';
+//  import '../vendor/aos/aos.css';
+ import '../vendor/animate/animate2.css';
+ import '../vendor/animate/animate1.css';
+// import '../vendor/aos/aos.js';
+// import '../vendor/bootstrap/js/bootstrap.bundle.min.js';
+// import '../vendor/glightbox/js/glightbox.min.js';
+// // import '../vendor/isotope-layout/isotope.pkgd.min.js';
+// // import '../vendor/swiper/swiper-bundle.min.js';
+// // import './main.js';
+// import '../vendor/php-email-form/validate.js';
 const AboutSection = () => {
   return (
     <section id="about" className="about">

@@ -1,8 +1,29 @@
 // src/components/FeaturesSection.js
 import React from 'react';
-import '../Css/style4.css';
 import '../Css/style5.css';
+// import { RiGpsLine } from 'react-icons/ri';
+// import { RiTerminalWindowLine } from 'react-icons/ri';
+// import { RiBodyScanLine } from 'react-icons/ri';
+// import { RiGroupLine } from 'react-icons/ri';
+//  import '../vendor/animate/animate.css';
+//  import '../vendor/aos/aos.css';
+ import '../vendor/animate/animate2.css';
+ import '../vendor/animate/animate1.css';
+ import '../vendor/animate/animate.css';
 
+// import '../vendor/bootstrap/css/bootstrap.min.css';
+// import '../vendor/bootstrap-icons/bootstrap-icons.css';
+// import '../vendor/boxicons/css/boxicons.min.css';
+// import '../vendor/glightbox/css/glightbox.min.css';
+// import '../vendor/remixicon/remixicon.css';
+// import '../vendor/swiper/swiper-bundle.min.css';
+// import '../vendor/aos/aos.js';
+// import '../vendor/bootstrap/js/bootstrap.bundle.min.js';
+// import '../vendor/glightbox/js/glightbox.min.js';
+// // import '../vendor/isotope-layout/isotope.pkgd.min.js';
+// // import '../vendor/swiper/swiper-bundle.min.js';
+// // import './main.js';
+// import '../vendor/php-email-form/validate.js';
 const FeaturesSection = () => {
   return (
     <section id="features" className="features">
@@ -15,7 +36,7 @@ const FeaturesSection = () => {
           {/* Tab 1 */}
           <li className="nav-item col-3" data-aos="zoom-in">
             <a className="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i className="ri-group-line"></i>
+            <i class="ri-group-line"></i>
               <h4 className="d-none d-lg-block">Collaborative Projects</h4>
             </a>
           </li>
@@ -23,7 +44,8 @@ const FeaturesSection = () => {
           {/* Tab 2 */}
           <li className="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-2">
-              <i className="ri-gps-line"></i>
+            <i class="ri-gps-line"></i>
+
               <h4 className="d-none d-lg-block">Roadmap to Artificial Intelligence</h4>
             </a>
           </li>
@@ -31,7 +53,7 @@ const FeaturesSection = () => {
           {/* Tab 3 */}
           <li className="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <i className="ri-body-scan-line"></i>
+            <i class="ri-body-scan-line"></i>
               <h4 className="d-none d-lg-block">AI Events & Workshops</h4>
             </a>
           </li>
@@ -39,7 +61,8 @@ const FeaturesSection = () => {
           {/* Tab 4 */}
           <li className="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
             <a className="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <i className="ri-terminal-window-line"></i>
+            <i class="ri-terminal-window-line"></i>
+
               <h4 className="d-none d-lg-block">Hackathons</h4>
             </a>
           </li>
@@ -105,7 +128,7 @@ const FeaturesSection = () => {
               
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="/features-2.png" alt="" class="img-fluid"/>
+              <img src="/feature-2.png" alt="" class="img-fluid"/>
               </div>
             </div>
           </div>
@@ -138,7 +161,7 @@ const FeaturesSection = () => {
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-              <img src="./features-3.png" alt="" class="img-fluid"/>
+              <img src="./feature-3.png" alt="" class="img-fluid"/>
               </div>
             </div>
           </div>
@@ -168,7 +191,7 @@ const FeaturesSection = () => {
                 </ul>
               </div>
               <div className="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="./features-4.png" alt="" class="img-fluid" style={{marginTop: '-60px'}}/>
+                <img src="./feature-4.png" alt="" class="img-fluid" style={{marginTop: '-60px'}}/>
               </div>
             </div>
           </div>
